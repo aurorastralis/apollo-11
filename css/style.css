@@ -1,0 +1,19 @@
+body {
+	background-color:#adadad;
+}
+h1 {
+	font-family:cambria;
+	text-transform:uppercase;
+	text-align: center;
+}
+
+.cool {
+	width:100px;
+	height:100px;
+	background-color:green;
+	transition: background-color 1s;
+}
+
+.cool.red{
+	background-color:red;
+}
