@@ -1,6 +1,6 @@
 .left {
 	position:fixed;
-	background-color:#d9d;
+	background-color:#68B2F8;
 	width:50%;
 	height:100%;
 	top:0;
@@ -10,7 +10,7 @@
 
 .right {
 	position:fixed;
-	background-color:white;
+	background-image:url('https://imgur.com/FjXuQ2E.png');
 	width:50%;
 	height:100%;
 	top:0;
@@ -57,5 +57,32 @@ a {
 }
 
 a.button {
-
+display:block;
+width:150px;
+padding:20px;
+border-radius:5px;
+margin-right: auto;
+margin-left: auto;
+background:#651F71;
+color:#fff;
+text-decoration: none;
+text-align:center;
+font-family:'Source Code Pro', monospace;
+text-transform: lowercase;
+font-size:30px;
 }
+
+h1 {font-family: 'Coda Caption', sans-serif;
+font-size: 80px;
+text-transform: uppercase;
+color:#506EE5;
+text-align: center;
+margin-top:30%;
+margin-bottom: 0;}
+
+h2 {font-family: 'Coda Caption', sans-serif;
+font-size:40px;
+text-align:center;
+margin-top:30%;
+color:#506EE5;
+margin-bottom: 0}
