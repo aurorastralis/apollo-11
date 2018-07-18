@@ -23,7 +23,7 @@ document.getElementById('countdown').innerHTML = countdownNumber;
 		var success = setTimeout (function ()
 		{
 			var randomNumber = Math.round (Math.random()*10);
-			if (randomNumber > 5) {
+			if (randomNumber > 1) {
 				changeState(4);
 			}
 			else {
